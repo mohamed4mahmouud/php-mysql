@@ -38,6 +38,16 @@ if (!$result) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Users Details</title>
     <style>
+        button{
+            margin-top:5px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 16px;
+        }
         table {
             border-collapse: collapse;
             width: 100%;
@@ -83,6 +93,7 @@ if (!$result) {
     }
     mysqli_close($conn);
     ?>
+    <button type="button">Add New user</button>
     
 </body>
 </html>
